@@ -16,6 +16,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 1.75em 0.85em;
+  gap: 1.45rem;
   background: var(--white-smoke);
 }
 
@@ -56,7 +57,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0 1rem;
-  margin-top: 1.625em;
+  
   padding: 1rem;
   background: var(--white);
 }
@@ -119,7 +120,6 @@ main {
 /** Posting Card */
 .posting-card {
   height: 12rem;
-  margin-top: 1em;
   padding: 0.8rem;
   background: var(--yellow-500);
   overflow: hidden;
@@ -135,4 +135,35 @@ main {
 .posting-card__image {
   width: 11.75rem;
   margin-top: 0.85rem;
+}
+
+/** Schedule Card */
+.schedule-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 1rem;
+  background: var(--purple-100);
+}
+
+.schedule-card__title {
+  margin-top: 0.5rem;
+  letter-spacing: -0.05rem;
+  font-size: 1.425rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.schedule-card__image {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.schedule-card__text {
+  width: 90%;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
 }
