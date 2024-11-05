@@ -1,0 +1,21 @@
+/** AI Content Card */
+
+.ai-content-card {
+  height: 19.5rem;
+  margin-top: 1rem;
+  padding: 0.25rem 1.5rem;
+  background: var(--yellow-500);
+}
+
+.ai-content-card__title {
+  margin-top: 1.5rem;
+  font-size: 1.85rem;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  line-height: 1.5rem;
+}
+
+.ai-content-card__image {
+  width: 220px;
+  margin-top: 1.25rem;
+}

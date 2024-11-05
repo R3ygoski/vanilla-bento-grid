@@ -1,0 +1,66 @@
+/** Social Card */
+
+.social-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0 1rem;
+  
+  padding: 1rem;
+  background: var(--white);
+}
+
+.social-card__button {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 64px;
+  padding: 0.35rem 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: var(--white);
+  box-shadow: -4px 4px 15px 0 rgba(0,0,0,0.1);
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.social-card__button:hover {
+  background: var(--yellow-500);
+  transform: translateY(-0.25rem);
+}
+.social-card__button:hover .fa-brands {
+  background: var(--purple-500);
+  color: var(--yellow-500);
+}
+
+.social-card__button .fa-brands {
+  grid-area: 1 / 1 / 3 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999rem;
+  font-size: 1.25rem;
+  background: var(--yellow-500);
+  color: var(--purple-500);
+  transition: background 0.3s ease-in-out;
+}
+
+.social-card__button__name {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.social-card__button__followers {
+  font-size: 0.6rem;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.social-card__title {
+  grid-area: 2 / 1 / 3 / 3 ;
+  margin-top: 0.25rem;
+  font-size: 1.325rem;
+  font-weight: 500;
+}

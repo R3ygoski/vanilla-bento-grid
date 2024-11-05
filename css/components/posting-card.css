@@ -1,0 +1,20 @@
+/** Posting Card */
+
+.posting-card {
+  height: 12rem;
+  padding: 0.8rem;
+  background: var(--yellow-500);
+  overflow: hidden;
+}
+
+.posting-card__title {
+  font-size: 1.375rem;
+  letter-spacing: -0.025rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.posting-card__image {
+  width: 200px;
+  margin-top: 0.85rem;
+}
