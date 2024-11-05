@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/bento-grid-vanilla-B_8O_f01KV)
+- Live Site URL: [Github Pages](https://r3ygoski.github.io/vanilla-bento-grid/)
 
 ## My process
 
