@@ -1,12 +1,12 @@
 @import url(reset.css);
 @import url(fonts.css);
 @import url(var.css);
-@import url(responsive.css);
 
 /** Reused Classes */
 .card {
   border-radius: 0.5rem;
   box-shadow: 0 4px 15px 0 rgba(0,0,0,0.1);
+  width: clamp(320px, 100%, 340px);
 }
 
 /** Header Card */
@@ -41,7 +41,7 @@ main {
 }
 
 .header-card__stars {
-  width: 10.5rem;
+  width: 184px;
   margin-top: 1rem;
 }
 
@@ -113,7 +113,7 @@ main {
 .social-card__title {
   grid-area: 2 / 1 / 3 / 3 ;
   margin-top: 0.25rem;
-  font-size: 1.375rem;
+  font-size: 1.325rem;
   font-weight: 500;
 }
 
@@ -133,7 +133,7 @@ main {
 }
 
 .posting-card__image {
-  width: 11.75rem;
+  width: 200px;
   margin-top: 0.85rem;
 }
 
@@ -156,7 +156,7 @@ main {
 }
 
 .schedule-card__image {
-  width: 100%;
+  width: 310px;
   margin-top: 1.5rem;
 }
 
@@ -179,7 +179,7 @@ main {
 }
 
 .grow-follower-card__image {
-  width: 75%;
+  width: 232px;
   margin-top: 1rem;
 }
 
@@ -212,7 +212,7 @@ main {
 }
 
 .audience-card__image {
-  width: 60%;
+  width: 180px;
   margin-top: 1.5rem;
 }
 
@@ -236,7 +236,7 @@ main {
 }
 
 .content-card__image {
-  width: 60%;
+  width: 200px;
   margin-top: 1.5rem;
 }
 
@@ -257,6 +257,6 @@ main {
 }
 
 .ai-content-card__image {
-  width: 70%;
+  width: 220px;
   margin-top: 1.25rem;
 }
