@@ -193,3 +193,25 @@ main {
   letter-spacing: -0.05rem;
   color: var(--white);
 }
+
+/** Audience Card */
+.audience-card {
+  padding: 0.75rem 1rem;
+  background: var(--white);
+}
+
+.audience-card__title {
+  width: 90%;
+  letter-spacing: -0.05rem;
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+.audience-card__text {
+  font-size: 1rem;
+}
+
+.audience-card__image {
+  width: 60%;
+  margin-top: 1.5rem;
+}
